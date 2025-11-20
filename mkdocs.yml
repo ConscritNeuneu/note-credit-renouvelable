@@ -1,0 +1,10 @@
+site_name: Note crédit renouvelable
+site_author: Quentin Godfroy
+theme:
+  name: readthedocs
+  locale: fr
+nav:
+  - Résumé: 0_resume_executif.md
+  - Présentation: 1_note_credit_revolving.md
+  - Exemple: 2_exemple.md
+  - Offres: 3_exemple_d_offres.md
