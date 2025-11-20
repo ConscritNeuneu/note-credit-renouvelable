@@ -1,7 +1,7 @@
 # Note sur le crédit renouvelable
 
 Cet espace a été mis en place afin de rassembler l'ensemble des informations autour
-de la note sur le crédit renouvelables.
+de la note sur le crédit renouvelable.
 
 On trouvera notamment les documents suivants:
 
