@@ -1,4 +1,4 @@
-# Exemple pratique
+# Mise en pratique
 
 ## Introduction
 

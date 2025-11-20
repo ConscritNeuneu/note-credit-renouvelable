@@ -1,4 +1,4 @@
-# Quelques exemples d'offres
+# Exemples d'offres
 
 Nous avons récolté quelques offres non conformes. Elles sont présentées ici
 de manière anonymisées.

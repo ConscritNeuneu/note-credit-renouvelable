@@ -5,7 +5,7 @@ de la note sur le crédit renouvelable.
 
 On trouvera notamment les documents suivants:
 
- - [Résumé exécutif](0_resume_executif.md)
+ - [Synthèse exécutive](0_resume_executif.md)
  - [Note de présentation](1_note_credit_revolving.md)
- - [Construction d'une offre](2_exemple.md)
+ - [Mise en pratique](2_exemple.md)
  - [Exemples d'offres](3_exemple_d_offres.md)
