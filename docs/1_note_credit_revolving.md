@@ -261,9 +261,10 @@ me coûte de payer cette dette. Si le taux paraît excessif au client il peut
 chercher à racheter le crédit pour un crédit amortissable, ou mobiliser
 d'autres moyens de financement moins chers.
 
-
 > Au premier alinéa de l'article L.312-71 du code de la consommation:
+> 
 > - Au 4° les mots « et le taux effectif global » sont supprimés.
+> 
 > - Après le 7°, il est inséré un 7°-bis ainsi rédigé : « 7°-bis Le taux
 >   effectif global représentant l'opération d'extinction de la dette dans le
 >   cas où il n'y a plus d'utilisation active ultérieure. Les modalités de
