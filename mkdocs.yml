@@ -1,5 +1,6 @@
 site_name: Note crédit renouvelable
 site_author: Quentin Godfroy
+plugins: []
 theme:
   name: readthedocs
   locale: fr
