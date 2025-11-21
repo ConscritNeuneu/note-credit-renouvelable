@@ -49,7 +49,7 @@ et sont rappelés dans le tableau suivant:
 Ces taux sont à comparer au TAEG (Taux Annualisé Effectif Global) du prêt
 considéré.
 
-### Construction des taux débiteurs
+### Taux débiteurs
 
 #### Rappel sur le taux débiteur et le taux annualisé
 
@@ -93,7 +93,7 @@ seuil d'usure :
 | 3000€ < m ≤ 6000€  | 13,30%        | 14,14%         |
 | 6000€ < m          | 7,59%         | 7,86%          |
 
-### Présentation des scenarios
+## Scénarios d'usage
 
 Le montant emprunté est de 6500€ et la durée de vie du prêt est de trois
 ans, soit trente-six mois.
@@ -113,7 +113,7 @@ En cas d'événement intervenant en cours de période, des intérêts
 dits « intercalaires » sont facturés. Pour simplifier nous n'allons pas
 considérer cet événement, cela ne change les coûts que à la marge.
 
-#### Crédit amortissable à mensualités constantes
+### Crédit amortissable à mensualités constantes
 
 C'est la forme la plus courante du prêt, même si ce n'est pas la plus
 simple à comprendre. Comme la mensualité est constante, au début cette
@@ -138,7 +138,7 @@ Ce capital se rembourse en 35 mensualités de 202,46€, et une dernière
 mensualité de 202.41€. Le coût total du crédit est de 7288,51€. Le TAEG est
 égal au taux débiteur annualisé, ici 7,86%.
 
-#### Crédit in fine
+### Crédit in fine
 
 Le crédit in fine consiste à rembourser tout le capital en une fois à la fin
 et ne payer que les intérêts à chaque fin de période.
@@ -167,7 +167,7 @@ Ce capital se rembourse en 35 mensualités de 41,11€, et une dernière de
 6541,11€. Le coût total du crédit est de 7979,96€. Le TAEG est égal au
 taux débiteur annualisé, ici 7,86%.
 
-#### Crédit renouvelable à paliers
+### Crédit renouvelable à paliers
 
 Comme discuté dans la note principale, le prêteurs font varier le taux
 débiteur selon l'encours sous le prétexte que le crédit est renouvelable.
@@ -194,70 +194,20 @@ de 582,16€ et une dernière de 582,07€. Le coût total du crédit est de
 le constater la différence de TAEG n'est pas significative.
 
 Afin que le lecteur se rende bien compte du fonctionnement du prêt, le
-tableau d'amortissement complet est indiqué dans la section ci-dessous (à
-dérouler). Il convient de prêter attention aux intérêts facturés à partir des
-échéances n°4 et n°22: juste après l'échéance n°3, le capital emprunté passe
-en dessous de 6500€, et de la même façon juste après l'échéance n°21 le
-capital emprunté passe en dessous de 3000€. Dans les deux cas les intérêts
-facturés subissent un saut et l'amortissement diminue d'autant car le taux
-débiteur est fonction de l'encours. La mensualité constante « cache » ce
+tableau d'amortissement complet est reproduit [en annexe](#tableau-damortissement).
+Il convient de prêter attention aux intérêts facturés à partir des échéances
+n°4 et n°22: juste après l'échéance n°3, le capital emprunté passe en
+dessous de 6500€, et de la même façon juste après l'échéance n°21 le capital
+emprunté passe en dessous de 3000€.  Dans les deux cas les intérêts facturés
+subissent un saut et l'amortissement diminue d'autant car le taux débiteur
+est fonction de l'encours. La mensualité constante « cache » ce
 fonctionnement.
 
 Dans un crédit classique, on s'attend à ce que la proportion des intérêts
 payés par la mensualité diminue avec le temps—on parle de comportement
 monotone. Ce n'est absolument pas le cas ici.
 
-<details>
-  <summary><b>Tableau d'amortissement sur 36 mois pour 6500€ empruntés avec mensualité constante</b></summary>
-  <table>
-<tr><th>mois</th><th>décaissement</th><th>mensualité</th><th>intérêts</th><th>amortissement</th><th>capital restant</th><th>note</th></tr>
-<tr><td>0</td><td>6500,00</td><td>0,00</td><td>0,00</td><td>0,00</td><td>6500,00</td><td></td><td></tr>
-<tr><td>1</td><td>0,00</td><td>220,06</td><td>41,11</td><td>178,95</td><td>6321,05</td><td></td><td></tr>
-<tr><td>2</td><td>0,00</td><td>220,06</td><td>39,98</td><td>180,08</td><td>6140,97</td><td></td><td></tr>
-<tr><td>3</td><td>0,00</td><td>220,06</td><td>38,84</td><td>181,22</td><td>5959,75</td><td></td><td></tr>
-<tr><td>4</td><td>0,00</td><td>220,06</td><td>66,05</td><td>154,01</td><td>5805,74</td><td> taux débiteur passe de 7,59% à 13,30% </td><td></tr>
-<tr><td>5</td><td>0,00</td><td>220,06</td><td>64,35</td><td>155,71</td><td>5650,03</td><td></td><td></tr>
-<tr><td>6</td><td>0,00</td><td>220,06</td><td>62,62</td><td>157,44</td><td>5492,59</td><td></td><td></tr>
-<tr><td>7</td><td>0,00</td><td>220,06</td><td>60,88</td><td>159,18</td><td>5333,41</td><td></td><td></tr>
-<tr><td>8</td><td>0,00</td><td>220,06</td><td>59,11</td><td>160,95</td><td>5172,46</td><td></td><td></tr>
-<tr><td>9</td><td>0,00</td><td>220,06</td><td>57,33</td><td>162,73</td><td>5009,73</td><td></td><td></tr>
-<tr><td>10</td><td>0,00</td><td>220,06</td><td>55,52</td><td>164,54</td><td>4845,19</td><td></td><td></tr>
-<tr><td>11</td><td>0,00</td><td>220,06</td><td>53,70</td><td>166,36</td><td>4678,83</td><td></td><td></tr>
-<tr><td>12</td><td>0,00</td><td>220,06</td><td>51,86</td><td>168,20</td><td>4510,63</td><td></td><td></tr>
-<tr><td>13</td><td>0,00</td><td>220,06</td><td>49,99</td><td>170,07</td><td>4340,56</td><td></td><td></tr>
-<tr><td>14</td><td>0,00</td><td>220,06</td><td>48,11</td><td>171,95</td><td>4168,61</td><td></td><td></tr>
-<tr><td>15</td><td>0,00</td><td>220,06</td><td>46,20</td><td>173,86</td><td>3994,75</td><td></td><td></tr>
-<tr><td>16</td><td>0,00</td><td>220,06</td><td>44,28</td><td>175,78</td><td>3818,97</td><td></td><td></tr>
-<tr><td>17</td><td>0,00</td><td>220,06</td><td>42,33</td><td>177,73</td><td>3641,24</td><td></td><td></tr>
-<tr><td>18</td><td>0,00</td><td>220,06</td><td>40,36</td><td>179,70</td><td>3461,54</td><td></td><td></tr>
-<tr><td>19</td><td>0,00</td><td>220,06</td><td>38,37</td><td>181,69</td><td>3279,85</td><td></td><td></tr>
-<tr><td>20</td><td>0,00</td><td>220,06</td><td>36,35</td><td>183,71</td><td>3096,14</td><td></td><td></tr>
-<tr><td>21</td><td>0,00</td><td>220,06</td><td>34,32</td><td>185,74</td><td>2910,40</td><td></td><td></tr>
-<tr><td>22</td><td>0,00</td><td>220,06</td><td>46,88</td><td>173,18</td><td>2737,22</td><td> le taux débiteur passe de 13,30% à 19,33% </td><td></tr>
-<tr><td>23</td><td>0,00</td><td>220,06</td><td>44,09</td><td>175,97</td><td>2561,25</td><td></td><td></tr>
-<tr><td>24</td><td>0,00</td><td>220,06</td><td>41,26</td><td>178,80</td><td>2382,45</td><td></td><td></tr>
-<tr><td>25</td><td>0,00</td><td>220,06</td><td>38,38</td><td>181,68</td><td>2200,77</td><td></td><td></tr>
-<tr><td>26</td><td>0,00</td><td>220,06</td><td>35,45</td><td>184,61</td><td>2016,16</td><td></td><td></tr>
-<tr><td>27</td><td>0,00</td><td>220,06</td><td>32,48</td><td>187,58</td><td>1828,58</td><td></td><td></tr>
-<tr><td>28</td><td>0,00</td><td>220,06</td><td>29,46</td><td>190,60</td><td>1637,98</td><td></td><td></tr>
-<tr><td>29</td><td>0,00</td><td>220,06</td><td>26,39</td><td>193,67</td><td>1444,31</td><td></td><td></tr>
-<tr><td>30</td><td>0,00</td><td>220,06</td><td>23,27</td><td>196,79</td><td>1247,52</td><td></td><td></tr>
-<tr><td>31</td><td>0,00</td><td>220,06</td><td>20,10</td><td>199,96</td><td>1047,56</td><td></td><td></tr>
-<tr><td>32</td><td>0,00</td><td>220,06</td><td>16,87</td><td>203,19</td><td>844,37</td><td></td><td></tr>
-<tr><td>33</td><td>0,00</td><td>220,06</td><td>13,60</td><td>206,46</td><td>637,91</td><td></td><td></tr>
-<tr><td>34</td><td>0,00</td><td>220,06</td><td>10,28</td><td>209,78</td><td>428,13</td><td></td><td></tr>
-<tr><td>35</td><td>0,00</td><td>220,06</td><td>6,90</td><td>213,16</td><td>214,97</td><td></td><td></tr>
-<tr><td>36</td><td>0,00</td><td>218,43</td><td>3,46</td><td>214,97</td><td>0,00</td><td></td><td></tr>
-  </table>
-
-Ce tableau illustre que le coût du crédit ne suit pas une trajectoire
-régulière : la proportion d'intérêts dans la mensualité peut augmenter en
-cours de remboursement, phénomène incompatible avec la logique d'un
-amortissement classique.
-
-</details>
-
-### Comparaison
+## Tableau comparatif
 
 | Scenario | Mensualités | Coût total du prêt | Intérêts | TAEG final | Note |
 | -------- | ----------- | ------------------ | -------- | ---------- | ---- |
@@ -278,7 +228,7 @@ On notera enfin qu'un même TAEG peut cacher des disparités importantes de
 charge de la dette selon la formule d'amortissement choisie, même pour une
 durée égale.
 
-### Conclusion
+## Conclusion
 
 Appliquer un taux débiteur selon l'encours conduit à des offres
 *grossièrement* usuraires. Ce type d'offre est selon nous insincère, induit
@@ -305,3 +255,55 @@ Il convient évidemment dans cette hypothèse de vérifier que cela ne provoque
 pas un comportement usuraire. Un amortissement démarré dans une des tranches
 des tableaux d'usure doit y rester, tant que le client ne réutilise pas sa
 facilité de crédit.
+
+## Annexe
+
+### Tableau d'amortissement
+
+Tableau d'amortissement du crédit renouvelable sur 36 mois pour 6500€
+empruntés et avec mensualité constante
+
+| mois | décaissement | mensualité | intérêts | amortissement | capital restant | note |
+| ---- | ------------ | ---------- | -------- | ------------- | --------------- | ---- |
+|0|6500,00|0,00|0,00|0,00|6500,00||
+|1|0,00|220,06|41,11|178,95|6321,05||
+|2|0,00|220,06|39,98|180,08|6140,97||
+|3|0,00|220,06|38,84|181,22|5959,75||
+|4|0,00|220,06|66,05|154,01|5805,74|le taux passe de 7,59% à 13,30%|
+|5|0,00|220,06|64,35|155,71|5650,03||
+|6|0,00|220,06|62,62|157,44|5492,59||
+|7|0,00|220,06|60,88|159,18|5333,41||
+|8|0,00|220,06|59,11|160,95|5172,46||
+|9|0,00|220,06|57,33|162,73|5009,73||
+|10|0,00|220,06|55,52|164,54|4845,19||
+|11|0,00|220,06|53,70|166,36|4678,83||
+|12|0,00|220,06|51,86|168,20|4510,63||
+|13|0,00|220,06|49,99|170,07|4340,56||
+|14|0,00|220,06|48,11|171,95|4168,61||
+|15|0,00|220,06|46,20|173,86|3994,75||
+|16|0,00|220,06|44,28|175,78|3818,97||
+|17|0,00|220,06|42,33|177,73|3641,24||
+|18|0,00|220,06|40,36|179,70|3461,54||
+|19|0,00|220,06|38,37|181,69|3279,85||
+|20|0,00|220,06|36,35|183,71|3096,14||
+|21|0,00|220,06|34,32|185,74|2910,40||
+|22|0,00|220,06|46,88|173,18|2737,22|le taux passe de 13,30% à 19,33%|
+|23|0,00|220,06|44,09|175,97|2561,25||
+|24|0,00|220,06|41,26|178,80|2382,45||
+|25|0,00|220,06|38,38|181,68|2200,77||
+|26|0,00|220,06|35,45|184,61|2016,16||
+|27|0,00|220,06|32,48|187,58|1828,58||
+|28|0,00|220,06|29,46|190,60|1637,98||
+|29|0,00|220,06|26,39|193,67|1444,31||
+|30|0,00|220,06|23,27|196,79|1247,52||
+|31|0,00|220,06|20,10|199,96|1047,56||
+|32|0,00|220,06|16,87|203,19|844,37||
+|33|0,00|220,06|13,60|206,46|637,91||
+|34|0,00|220,06|10,28|209,78|428,13||
+|35|0,00|220,06|6,90|213,16|214,97||
+|36|0,00|218,43|3,46|214,97|0,00||
+
+Ce tableau illustre que le coût du crédit ne suit pas une trajectoire
+régulière : la proportion d'intérêts dans la mensualité peut augmenter en
+cours de remboursement, phénomène incompatible avec la logique d'un
+amortissement classique.
