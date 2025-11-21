@@ -80,7 +80,7 @@ petit montant, inférieurs à 3000€. Le contrôle du caractère usuraire se fa
 sur le TAEG
 ([article L.312-6](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226196)).
 
-### Cas des crédits renouvelables
+## Cas des crédits renouvelables
 
 L'ensemble du marché du crédit renouvelable semble s'être stabilisé sur des
 offres proposant un taux débiteur dépendant de l'encours du crédit, collés
