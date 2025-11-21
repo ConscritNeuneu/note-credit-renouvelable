@@ -3,11 +3,12 @@
 ## Introduction
 
 Afin de rendre compréhensible le mécanisme qui conduit à des offres
-usuraires, nous proposons de comparer les deux formules courantes: le crédit
-amortissable et le crédit renouvelable « à paliers » tels qu'un consommateur
-peut les trouver sur le marché français du crédit à la consommation.
+usuraires, nous proposons de construire et comparer deux formules courantes:
+le crédit amortissable et le crédit renouvelable « à paliers » tels qu'un
+consommateur peut les trouver sur le marché français du crédit à la
+consommation.
 
-Les taux débiteurs sont communs aux deux offres et sont fixés au regard des
+Les taux débiteurs seront communs aux deux offres et sont fixés au regard des
 seuils d'usure du 4è trimestre 2025.
 
 Le montant emprunté est choisi selon un scenario réaliste et de manière à
