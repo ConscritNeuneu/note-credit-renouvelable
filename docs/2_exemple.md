@@ -100,6 +100,7 @@ ans, soit trente-six mois.
 
 Rappel qu'un crédit fonctionne de la manière suivante. À la fin de chaque période
 le capital est:
+
 1. augmenté des intérêts
 2. diminué du remboursement
 
