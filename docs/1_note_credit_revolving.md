@@ -63,10 +63,10 @@ consommateurs de comparer les offres et de faire un choix éclairé. Cet outil e
 aussi à disposition du régulateur en ce qui concerne la conformité quant à
 l'usure.
 
-Conceptuellement, le TAEG va représenter le coût moyen de l'argent tout au
-long de la durée du crédit.
+Conceptuellement, il représente le coût moyen de l'argent tout au long de la
+durée du crédit.
 
-Le calcul du TAEG est
+Son calcul est
 [défini réglementairement](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044536833)
 selon les types de contrat de crédit. La méthode générale est celle de la
 compensation des flux actuariels qui consiste à trouver le taux d'inflation
