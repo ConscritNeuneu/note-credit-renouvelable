@@ -4,3 +4,4 @@ tex/*.aux
 tex/*.log
 tex/*.out
 tex/*.toc
+tex/*.pdf
