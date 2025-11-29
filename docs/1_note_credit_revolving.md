@@ -242,6 +242,7 @@ sur cet aspect.
 [Sénat, commission des affaires économiques]
 
 Nous proposons de:
+
  * rajouter au premier alinéa de l'article [L.312-71](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032222141/?anchor=LEGIARTI000035731394)
    du code de la consommation relatif au relevé périodique un 7°-bis qui
    impose au prêteur de fournir le TAEG dynamique.
