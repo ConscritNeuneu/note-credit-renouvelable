@@ -172,7 +172,7 @@ part du prêteur—justifiant une invalidation de toutes les hypothèses—et
 toute action manuelle altère de toutes façons les paramètres de la phase
 d'amortissement à savoir le coût total du crédit, le nombre de mensualités
 restantes, et leur montant. Le choix du point de départ au point de la
-dernière utilisation permet, si le client s'en tient aux plan
+dernière utilisation permet, si le client s'en tient au plan
 d'amortissement prévu, que la valeur calculée reste constante jusqu'à
 extinction de la dette. La réglementation limitant le nombre de mensualités
 (articles
