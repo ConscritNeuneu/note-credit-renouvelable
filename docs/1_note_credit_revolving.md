@@ -12,7 +12,7 @@ ligne de crédit jusqu'à un encours maximum—nommé montant total du crédit. 
 
 Durant la vie du contrat, il y a des phases d'augmentation de la dette—le
 client se sert soit de l'instrument de paiement lié quand il existe, soit
-demande un virement—et des phases d'amortissements—il paye les intérêts et
+demande un virement—et des phases d'amortissement—il paye les intérêts et
 rembourse une partie du capital emprunté.
 
 Dans certains pays le recours à ce type de crédit est quasi généralisé. En
