@@ -79,7 +79,7 @@ crédits à la consommation.
 
 Le point le plus important à retenir est que ce taux annualisé n'est pas
 forcément égal au TAEG qui considère l'ensemble de la vie du crédit et en
-incluant les frais prévisibles, il faut voir le TAEG comme le taux moyen sur
+incluant les frais prévisibles : il faut voir le TAEG comme le taux moyen sur
 toute la vie du prêt.
 
 #### Taux débiteurs appliqués
