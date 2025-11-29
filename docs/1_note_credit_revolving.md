@@ -40,7 +40,7 @@ qu'ils pratiquent.
 
 ## Rappel sur le cadre réglementaire
 
-L'immense majortié du dispositif réglementaire sur le crédit en France y
+L'immense majorité du dispositif réglementaire sur le crédit en France y
 compris immobilier est repris dans le livre 3 du code de la consommation,
 articles [L.311-1 à L.354-6](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221961)
 et [D.312-1 à R.354-5](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032807390).
