@@ -33,7 +33,7 @@ respecter l'esprit des réglementations sur l'usure.
 ### Seuils d'usure
 
 Contrairement aux crédits immobiliers, les seuls d'usure pour les crédits à
-la consommation—appelés« crédits de trésorerie » sont déterminés en fonction
+la consommation—appelés « crédits de trésorerie » sont déterminés en fonction
 du montant du crédit.
 
 Ils sont publiés par la banque de France. Pour le 4è trimestre 2025 ils sont
