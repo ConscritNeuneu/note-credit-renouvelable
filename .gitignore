@@ -1,2 +1,6 @@
 .*.swp
 site/*
+tex/*.aux
+tex/*.log
+tex/*.out
+tex/*.toc
