@@ -30,7 +30,6 @@ Points problématiques
 
 Dispositif non conforme au regard du code de la consommation.
 
-https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226120
 [Article L312-34 du code de la consommation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226120)
 
 L'emprunteur peut toujours, à son initiative, rembourser par anticipation,
