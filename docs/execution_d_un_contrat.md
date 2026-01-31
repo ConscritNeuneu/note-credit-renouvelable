@@ -10,12 +10,12 @@ remboursements afin de comprendre la logique de calcul des intérêts.
 
 ## Utilisation
 
-## Relevés
+### Relevés
 
 Les relevés de janvier et février permettent de bien appréhender la
 mécanique du compte.
 
-Recalcul des intérêts.
+### Recalcul des intérêts.
 
 ### Analyse du fonctionnement
 
@@ -28,11 +28,14 @@ Recalcul des intérêts.
   du relevé sous le terme « nouveau montant utilisé ».
 
 - Les intérêts sont très vraisemblablement calculés une fois par période, au
-  moment du relevé, par un moteur d'agios bancaire classique. La mention «
-  Taux mensuel de la période » laisse penser que le moteur n'est capable
+  moment du relevé, par un moteur d'agios bancaire classique calculant une
+  échelle d'intérêts selon la méthode hambourgeoise. La mention « Taux
+  mensuel de la période » laisse penser que le moteur n'est capable
   d'appliquer qu'un seul taux journalier. Le moteur est chargé avec un relevé
   de transactions synthétique correspondant à la période selon la date de
-  valeur de chaque opération.
+  valeur de chaque opération. Le relevé synthétique démarre à l'ouverture
+  comptable de la période et se termine à la date prévisible de la mensualité
+  automatique.
 
 - Le taux chargé dans le moteur d'agios est vraisemblablement
   t/12/nb_jours_mois, le taux de base étant très probablement celui
@@ -41,10 +44,11 @@ Recalcul des intérêts.
 - Les intérêts sont liquidés au moment de la mensualité, la banque s'y
   engageant au moment du relevé.
 
-- On observe un précompte d'intérêts entre la date du relevé et la date de
-  la mensualité prévue. Cela implique que pour la période suivante la date
-  de valeur du transfert du solde est paramétrée au 3 du mois pour faire
-  soudure entre les périodes.
+- Comme on observe un précompte d'intérêts entre la date du relevé et la
+  date de la mensualité prévue, cela implique que pour la période suivante la
+  date de valeur du transfert du solde est paramétrée au 3 du mois pour faire
+  soudure entre les périodes. Les débits apparaîssant avant cette soudure sont
+  comptabilisés normalement.
 
 - La date de valeur des opérations carte est au moment de la date de
   transaction, non la date de comptabilisation.
@@ -54,7 +58,7 @@ Recalcul des intérêts.
   dès le relevé de compte des intérêts on peut écarter une suspicion
   d'anatocisme. Il serait appréciable que le relevé lève tout doute.
 
-## Mécanisme des dates de valeur
+### Mécanisme des dates de valeur
 
 [A venir]
 
@@ -81,7 +85,7 @@ Points problématiques
   n'est plus justifié dans l'environnement moderne SEPA (présentation au
   débit à D-1).
 - En conséquence du précompte la date de valeur du rollover de la
-  dette,fixée au 3 pour faire soudure avec le précompte des intérêts est non
+  dette, fixée au 3 pour faire soudure avec le précompte des intérêts est non
   explicite et incompréhensible pour le client consommateur.
 - En conséquence des deux points précédents, les remboursements anticipés
   entre le relevé et la mensualité sont bloqués artificiellement afin d'éviter
@@ -95,7 +99,7 @@ Points problématiques
   d'anatocisme entre la date du relevé et la date de paiement des intérêts
   via la mensualité le 3.
 
-# Refs légales
+## Refs légales
 
 Dispositif non conforme au regard du code de la consommation.
 
